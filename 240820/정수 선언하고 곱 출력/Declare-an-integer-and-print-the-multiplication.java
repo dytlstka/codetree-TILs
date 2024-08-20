@@ -5,6 +5,6 @@ public class Main {
         int b = 5;
         int c = a*b;
 
-        System.out.print(a + " * " + b " = " c);
+        System.out.print(a + " * " + b + " = " + c);
     }
 }
