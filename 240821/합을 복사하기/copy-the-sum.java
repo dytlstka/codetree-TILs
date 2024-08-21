@@ -8,6 +8,6 @@ public class Main {
 
         a = b = c = temp;
 
-        System.out.print(a + " " + b + " " c);
+        System.out.print(a + " " + b + " " + c);
     }
 }
