@@ -12,6 +12,6 @@ public class Main {
 
         b = temp;
 
-        Sytem.out.printf("%d\n%d\n%d", a, b, c);
+        System.out.printf("%d\n%d\n%d", a, b, c);
     }
 }
