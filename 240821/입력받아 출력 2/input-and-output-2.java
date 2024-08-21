@@ -7,10 +7,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         sc.useDelimiter("-");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        String a = sc.next();
+        String b = sc.next();
 
-        System.out.print(a b);
+        System.out.print(a + b);
 
     }
 }
