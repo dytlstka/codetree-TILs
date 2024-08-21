@@ -8,7 +8,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.print(a + " " + b + " " + a + b);
+        System.out.print(a + " " + b + " " + (a+b));
 
     }
 }
