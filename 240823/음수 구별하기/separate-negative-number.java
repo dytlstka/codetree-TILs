@@ -14,7 +14,8 @@ public class Main {
 
         }
 
-        
-        
+        if (a >= 0) {
+            System.out.print(a);
+        }        
     }
 }
