@@ -18,6 +18,6 @@ public class Main {
             System.out.print("Paul");
 
         else 
-            System.out.print("Vacancy")
+            System.out.print("Vacancy");
     }
 }
