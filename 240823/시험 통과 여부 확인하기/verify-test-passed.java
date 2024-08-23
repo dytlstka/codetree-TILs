@@ -14,7 +14,7 @@ public class Main {
         }
         else {
 
-            System.out.println(a);
+            
             System.out.println((80-a) + " more score");
         }
 
