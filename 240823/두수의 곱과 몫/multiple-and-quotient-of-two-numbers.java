@@ -22,7 +22,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.printf("%d * %d = %d", a, b, (a*b));
+        System.out.printf("%d * %d = %d\n", a, b, (a*b));
         System.out.printf("%d / %d = %d", a, b, (a/b));
     }
 }
