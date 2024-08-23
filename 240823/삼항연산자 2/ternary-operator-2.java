@@ -8,7 +8,7 @@ public class Main {
 
         int a = sc.nextInt();
         
-        a = a == 1 ? "t" : "F";
+        System.out.print(a == 1 ? "t" : "f");
 
         
         
