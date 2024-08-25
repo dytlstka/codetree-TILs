@@ -23,7 +23,7 @@ public class Main {
             System.out.print("Effort");
 
         else
-            System.out.print("Failure")
+            System.out.print("Failure");
 
 
     }
