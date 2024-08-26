@@ -12,7 +12,7 @@ public class Main {
         int b = sc.nextInt();
         char b1 = sc.next().charAt(0);
         
-        if((a>=19 && a1 == 'M') || (b >= 'M' && b1 == 'M')){
+        if((a>=19 && a1 == 'M') || (b >= 19 && b1 == 'M')){
             System.out.print(1);
         }
         else
