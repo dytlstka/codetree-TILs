@@ -14,18 +14,21 @@ public class Main {
         
 
         if (a>c){
+            System.out.print("A");
+        }
+        else if (a<c) {
             System.out.print("B");
         }
-        else {
+        else{
+            if (b>d){
             System.out.print("A");
+        }
+        else {
+            System.out.print("B");
+        }
         }
 
-        if (b>d){
-            System.out.print("B");
-        }
-        else {
-            System.out.print("A");
-        }
+    
 
 
     }
