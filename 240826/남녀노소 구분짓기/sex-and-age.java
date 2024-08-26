@@ -11,7 +11,7 @@ public class Main {
 
         
 
-        if(a=0){
+        if(a==0){
             if(b>=19){
                 System.out.print("MAN");
             }
