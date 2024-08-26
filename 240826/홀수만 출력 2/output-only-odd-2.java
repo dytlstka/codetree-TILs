@@ -6,10 +6,10 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
         int b = sc.nextInt();
+        int a = sc.nextInt();
 
-        for(int i = b; i>=a; i -= 2){
+        for(int i = b; i >= a; i-=2){
             System.out.print(i + " ");
         }
         
