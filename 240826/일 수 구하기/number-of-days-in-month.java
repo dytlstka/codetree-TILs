@@ -19,7 +19,7 @@ public class Main {
 
             }
             else
-                System.out.print(30);
+                System.out.print(31);
         }
         else
             {
