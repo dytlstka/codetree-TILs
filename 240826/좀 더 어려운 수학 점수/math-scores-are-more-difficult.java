@@ -16,14 +16,14 @@ public class Main {
         if (a>c){
             System.out.print("B");
         }
-        else (a<c){
+        else {
             System.out.print("A");
         }
 
         if (b>d){
             System.out.print("B");
         }
-        else (b<d){
+        else {
             System.out.print("A");
         }
 
