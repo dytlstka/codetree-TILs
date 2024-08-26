@@ -2,29 +2,28 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
 
-        String a = sc.next();
-
-        if (a == "S")
-            System.out.print("Superior");
+        // 변수 선언
+        char a;
         
-        else if (a == "A")
-            System.out.print("Excellent");
+        // 입력
+        a = sc.next().charAt(0);
         
-        else if (a == "B")
-            System.out.print("Good");
-
-        else if ( a == "C")
-            System.out.print("Usually");
-        
-        else if ( a == "D")
-            System.out.print("Effort");
-
+        // 출력
+        if(a == 'S')
+            System.out.println("Superior");
+        else if(a == 'A')
+            System.out.println("Excellent");
+        else if(a == 'B')
+            System.out.println("Good");
+        else if(a == 'C')
+            System.out.println("Usually");
+        else if(a == 'D')
+            System.out.println("Effort");
         else
-            System.out.print("Failure");
-
-
+            System.out.println("Failure");
     }
 }
+
+// "" 큰 따옴표는 문자열 - '' 작은 따옴표는 문자를 뜻한다.
