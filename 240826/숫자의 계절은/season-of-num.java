@@ -11,7 +11,7 @@ public class Main {
         if(m>=3 && m<=5){
             System.out.print("Spring");
         }
-        else if(m>=6 && m<=98){
+        else if(m>=6 && m<=8){
             System.out.print("Summer");
 
         }
