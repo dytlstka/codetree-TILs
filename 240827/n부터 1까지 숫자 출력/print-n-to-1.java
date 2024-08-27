@@ -12,7 +12,7 @@ public class Main {
         while (n>=1){
             System.out.print(n + " ");
 
-            i -= 1;
+            n -= 1;
         }
         
         
