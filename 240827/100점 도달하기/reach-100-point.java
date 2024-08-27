@@ -12,12 +12,12 @@ public class Main {
         for (int i = 1; i <= 100; i++){
             
 
-            if(n<60){
-                System.out.print("F ");
+            if(n>=90){
+                System.out.print("A ");
 
             }            
-            else if(n>=60){
-                System.out.print("D ");
+            else if(n>=80){
+                System.out.print("B ");
             }
             
             else if(n>=70){
@@ -25,11 +25,11 @@ public class Main {
             }
 
 
-            else if(n>=80){
-                System.out.print("B ");
+            else if(n>=60){
+                System.out.print("D ");
             }
-            else if(n>=90){
-                System.out.print("A ");
+            else {
+                System.out.print("F ");
             }
         }
         
