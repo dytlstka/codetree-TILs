@@ -10,10 +10,11 @@ public class Main {
         int n = sc.nextInt();
 
         
-        for (int i = 1; i < n; i++){
+        for (int i = 1; i <= n; i++){
             a += a;
+            System.out.print(a);
         }
 
-        System.out.print(a);
+        
     }
 }
