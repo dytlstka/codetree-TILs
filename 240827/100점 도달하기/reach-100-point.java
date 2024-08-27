@@ -11,10 +11,10 @@ public class Main {
 
         for (int i = 1; i <= 100; i++){
             if(n>=80){
-                System.out.print("B ")
+                System.out.print("B ");
             }
             else if(n>=90){
-                System.out.print("A ")
+                System.out.print("A ");
             }
         }
         
