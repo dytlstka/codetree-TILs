@@ -23,6 +23,8 @@ public class Main {
                 b--;
             }
         }
+        else
+            System.out.print(a);
         
 
 }
