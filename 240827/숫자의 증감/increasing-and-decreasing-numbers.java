@@ -6,17 +6,17 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        char c = sc.nextInt().charAt(0);
+        char c = sc.next().charAt(0);
         int n = sc.nextInt();
         int i = 1;
-        if (c = 'A'){
+        if (c == 'A'){
             while ( i <= n ){
                 System.out.print(i + " ");
                 i++;
 
             }
         }
-        else if ( c = 'D'){
+        else if ( c == 'D'){
             while ( n >= i){
                 System.out.print(n + " ");
                 n--;
