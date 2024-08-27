@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // 여기에 코드를 작성해주세요.
+
+        Scanner sc = new Scanner(System.in);
+
+        char c = sc.nextInt().charAt(0);
+        int n = sc.nextInt();
+        int i = 1;
+        if (c = 'A'){
+            while ( i <= n ){
+                System.out.print(i + " ");
+                i++;
+
+            }
+        }
+        else if ( c = 'D'){
+            while ( n >= i){
+                System.out.print(n + " ");
+                n--;
+            }
+        }
+
+        
+        
+    }
+}
