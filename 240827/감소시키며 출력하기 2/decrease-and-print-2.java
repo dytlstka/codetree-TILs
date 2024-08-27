@@ -6,7 +6,7 @@ public class Main {
 
         while (i >= 10){
             System.out.print(i + " ");
-            i -= 2;
+            i -= 1;
         }
     }
 }
