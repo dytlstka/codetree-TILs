@@ -13,15 +13,15 @@ public class Main {
             
 
             if(n<60){
-                System.out.print("F");
+                System.out.print("F ");
 
             }            
             else if(n>=60){
-                System.out.print("D");
+                System.out.print("D ");
             }
             
             else if(n>=70){
-                System.out.print("C");
+                System.out.print("C ");
             }
 
 
