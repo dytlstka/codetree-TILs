@@ -11,11 +11,11 @@ public class Main {
 
         for (int i = 1; i <= n; i++){
             if( i%2 == 0 || i%3==0){
-                System.out.println(1);
+                System.out.print(1 + " ");
             
             }
             else
-                System.out.println(0);
+                System.out.println(0 + " ");
         }
 
         
