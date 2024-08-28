@@ -24,6 +24,6 @@ public class Main {
         }
         t= SumVal / (k);
         System.out.print(SumVal + " ");
-        System.out.print("%.1f", t);
+        System.out.printf("%.1f", t);
     }
 }
