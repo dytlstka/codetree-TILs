@@ -10,7 +10,7 @@ public class Main {
         while(true){
 
             int k = sc.nextInt();
-            if(k<30){
+            if(19<k && k<30){
                 f+=k;
                 n++;
             }
