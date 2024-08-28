@@ -16,10 +16,7 @@ public class Main {
                 SumVal += i;
                 k++;
             }
-            if(i%5==0 && i%7==0){
-                SumVal -= i;
-                k--;
-            }
+          
 
         }
         t= SumVal / (k);
