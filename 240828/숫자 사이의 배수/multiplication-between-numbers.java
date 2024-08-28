@@ -9,15 +9,21 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int SumVal = 0;
-        
+        double t = 0;
+        double k = 0;
         for (int i = a; i <= b; i++){
             if(i%5==0 || i%7==0){
                 SumVal += i;
+                k++;
             }
             if(i%5==0 && i%7==0){
                 SumVal -= i;
+                k--;
             }
 
         }
+        t= SumVal / (k);
+        System.out.print(SumVal + " ");
+        System.out.print("%.1f", t);
     }
 }
