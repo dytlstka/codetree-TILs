@@ -12,7 +12,7 @@ public class Main {
             int k = sc.nextInt();
 
             if(k%2==1 && k%3==0){
-                cnt++;
+                cnt+=k;
             }
         }
         System.out.print(cnt);
