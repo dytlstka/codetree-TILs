@@ -9,16 +9,17 @@ public class Main {
 
 
         int n = sc.nextInt();
-        int k = -1;
+        
         int arr[];
-        int arr2[];
         arr = new int[n];
         
-        for(int i = 0; i < n; i++){
+        for(int i = n-1; 0 <= i; i--){
             arr[i]=sc.nextInt();
 
+
+
             if(arr[i]%2==0){
-                System.out.print(arr[i]);
+                System.out.print(arr[i] + " ");
             }
         }
  
