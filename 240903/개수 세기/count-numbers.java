@@ -17,7 +17,7 @@ public class Main {
         for(int i = 0; i < n; i++){
             Arr[i] = sc.nextInt();
 
-            if(Arr[i]==n){
+            if(Arr[i]==m){
                 cnt++;
             }
         }
