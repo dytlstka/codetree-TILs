@@ -24,7 +24,7 @@ public class Main {
         }
         av = (double)sum / c;
 
-        System.out.print(sum + " " + av);
+        System.out.printf("%d %.1f",sum, av);
 
 
 
