@@ -16,7 +16,7 @@ public class Main {
             if(word[i]==k){
 
                 System.out.print(i);
-                idx = i
+                idx = i;
             }
         }
 
