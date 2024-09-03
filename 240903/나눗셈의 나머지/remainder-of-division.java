@@ -21,7 +21,7 @@ public class Main {
 
         while(true){
             
-            if(p<b){
+            if(p<=b){
                 p = p/b;
                 take++;
                 break;
